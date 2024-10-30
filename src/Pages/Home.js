@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Layouts/Header";
+import Profile from "../Components/Profile";
 
 function Home() {
-  return (
-    <div>
-      <Header />
+  useEffect(() => {
+    document.title = "faham.dev //home";
+  }, []);
 
-      <div></div>
+  return (
+    <div className="  font-mono p-6 bg-black min-h-screen">
+      <Header />
+      <Profile />
     </div>
   );
 }

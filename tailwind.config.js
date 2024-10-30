@@ -3,7 +3,16 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        bg: "#060606",
+        fg: "#cdcdcd",
+        fg2: "#acacac",
+      },
+      fontFamily: {
+        mono: ['"Space Mono"', "monospace"],
+      },
+    },
   },
   plugins: [],
 };
