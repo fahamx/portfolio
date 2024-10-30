@@ -3,8 +3,6 @@ import Projects from "./Projects";
 import DiscordStatus from "./Status";
 
 export default function Profile() {
-  let config = "https://api.lanyard.rest/v1/users/395904048982654987";
-
   return (
     <div>
       <div className="max-w-4xl mx-auto border-2 border-fg p-6 mt-16">
