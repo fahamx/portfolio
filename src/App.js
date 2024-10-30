@@ -12,8 +12,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/experience" element={Experience} />
-          <Route path="/photos" element={Photos} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/photos" element={<Photos />} />
         </Routes>
       </div>
     </Router>
