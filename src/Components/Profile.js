@@ -1,7 +1,10 @@
 import React from "react";
 import Projects from "./Projects";
+import DiscordStatus from "./Status";
 
 export default function Profile() {
+  let config = "https://api.lanyard.rest/v1/users/395904048982654987";
+
   return (
     <div>
       <div className="max-w-4xl mx-auto border-2 border-fg p-6 mt-16">
@@ -17,14 +20,15 @@ export default function Profile() {
               faham <span className="font-normal text-sm">(he/him)</span>
             </p>
             <p>software engineer, graduate student, & linux enthusiast</p>
-            {/* <p id="status" className="text-fg2">
-              + loading...
-            </p> */}
+            <p id="status" className="text-fg2">
+              <DiscordStatus />
+            </p>
 
             {/* Links */}
             <div className="space-y-1">
               <p>
                 <a
+                  className="font-semibold"
                   href="https://github.com/fahamx"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -34,6 +38,7 @@ export default function Profile() {
               </p>
               <p>
                 <a
+                  className="font-semibold"
                   href="https://www.linkedin.com/in/nfaham/"
                   target="_blank"
                   rel="noopener noreferrer"
