@@ -1,13 +1,6 @@
-# My React Portfolio
+# Personal Portfolio
 
 This is a personal portfolio built with React, showcasing my work and experience as a software engineer. The application utilizes various modern technologies and libraries to enhance functionality and user experience.
-
-## Table of Contents
-
-- [My React Portfolio](#my-react-portfolio)
-  - [Table of Contents](#table-of-contents)
-  - [Technologies Used](#technologies-used)
-  - [Features](#features)
 
 ## Technologies Used
 
